@@ -15,3 +15,5 @@ services:
       MYSQL_PASSWORD: secret
       MYSQL_DB: todos
 
+volumes:
+  todo-mysql-data:
