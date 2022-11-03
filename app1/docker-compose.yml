@@ -31,5 +31,5 @@ volumes:
   todo-mysql-data:
 
 networks:
-  database:
+  todo-app:
     external: true

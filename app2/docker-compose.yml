@@ -18,5 +18,5 @@ services:
         todo-app: {}
 
 networks:
-  database:
+  todo-app:
     external: true
