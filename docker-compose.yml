@@ -15,7 +15,7 @@ services:
       MYSQL_PASSWORD: secret
       MYSQL_DB: todos
 
-app:
+app2:
     image: node:12-alpine
     command: sh -c "yarn install && yarn run dev"
     ports:
